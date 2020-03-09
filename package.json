@@ -1,0 +1,41 @@
+{
+  "name": "vdom-diff-algorithm",
+  "version": "1.0.0",
+  "description": "A simple algorithm implementation for vdom diff for react or vue dom",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js --out-file lib/vdom.js",
+    "lint-staged": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rain120/vdom-diff-algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "lint-staged": {
+    "{src}/**/**.js": [
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": [
+        "lint-staged"
+      ],
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/Rain120/vdom-diff-algorithm/issues"
+  },
+  "homepage": "https://github.com/Rain120/vdom-diff-algorithm#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "conventional-changelog-cli": "^2.0.31",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8"
+  }
+}
