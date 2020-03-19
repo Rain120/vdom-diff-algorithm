@@ -16,7 +16,6 @@
   "license": "MIT",
   "lint-staged": {
     "{src}/**/**.js": [
-      "git add"
     ]
   },
   "husky": {

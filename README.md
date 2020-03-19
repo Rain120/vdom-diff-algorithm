@@ -21,7 +21,8 @@ Welcome to the **Virtual Dom Diff Algorithm**, The repo is a simple algorithm im
 
 ## 🎮 TL;DR
 
-⌨️ To be Continue...
+<!-- ⌨️ To be Continue... -->
+[Demo](https://rain120.github.io/vdom-diff-algorithm/)
 
 ## ✍ Why am I doing this?
 
